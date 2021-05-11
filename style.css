@@ -1,0 +1,125 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.container{
+  
+    width: 380px;
+    margin: auto;
+   
+    
+}
+.header{
+   
+    height: 300px;
+    text-align: center;
+   
+    
+    
+}
+.header p{
+    font-size: 20px;
+}
+
+.header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.header h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.content{
+    width: 380px;
+    height:468px;
+    background-color: #c7e9fb;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button img{
+    width: 45px;
+    margin-left:15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.volumeBtn{
+    text-align: center;
+}
+.volumeBtn h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #e6e7e8;
+    margin: 0px;
+  }
+input[type=range]::-webkit-slider-thumb {  
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: black;
+    -webkit-appearance: none;
+}
+.color{
+    text-align: center;
+    margin-top: 20px;
+}
+.color button{
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-left: 15px;
+}
+#color1{
+     background-color: #c7e9fb;
+    background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+    
+}
+#color2{
+    background-color: #0beef9;
+    background-image: linear-gradient(315deg, #0beef9 0%, #48a9fe 74%);
+}
+#color3{
+    background-color: #3ee577;
+    background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
+}
+#color4{
+    background-color: #fff000;
+    background-image: linear-gradient(315deg, #fff000 0%, #ed008c 74%);
+}
+.footer{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+    }
+.footer img{
+    width: 60px;
+    float: left;
+    margin: 0 30px;
+}
+.footer p,h1{
+    text-transform: capitalize;
+}
+.radd {
+    margin-top: 1px;
+}
+.radd img{
+    width: 380px;
+    height: 68px;
+}
