@@ -25,7 +25,7 @@ class Audio{
 
         this.name_radio=[];
         this.name_radio[0]="Blida";
-        this.name_radio[1]="EL BAHJA";
+        this.name_radio[1]="Kurd";
         this.name_radio[2]="FIRET FM";
 
         this.link_radio=[];
